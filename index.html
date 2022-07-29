@@ -10,26 +10,109 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,600;1,100&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/334409e065.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
+        <!-- navigation bar -->
         <div class="headerContainer">
             <nav class="navBar">
                 <ul>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Tech Stack</a></li>
+                    <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <a href="#insert-resume-url"></a>
             </nav>
         </div>
     </header>
     <main>
-        <section class="wrapper">
-            <img src="https://placekitten.com/300/300" alt="">
+        <!-- Landing Page. -->
+        <section>
+            <div class="wrapper">
+                <img src="https://placekitten.com/300/300" alt="Portrait of Myself">
+                <h1>Kevin Chin</h1>
+                <p>I am a <span>Front-End Developer, Photographer, Car Enthusiast</span></p>
+                <!-- social media -->
+                <ul>
+                    <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    <li><i class="fa-solid fa-at"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-github-alt"></i></li>
+                </ul>
+                <!-- UI navigation animation (scroll down) -->
+                <div class="mouseScroll">
+                    <div class="mouseObj">
+                        <div class="scrollObj"></div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <!-- About Me Section -->
+        <section>
+            <div class="wrapper">
+                <h2>About Me</h2>
+                <div class="profilePic">
+                    <img src="https://placekitten.com/300/300" alt="profile pic">
+                </div>
+                <div class="aboutP">
+                    <p>Hi, my name is Kevin Chin.I am a passionate front-end developer building responsive web
+                        applications with modern technologies. My interest in web development started back in highschool
+                        where I learning python and computer engineering. However, through university, I ultimately
+                        decided to become a registered
+                        nurse working in the ICU. Fast-forward to today, I rekindled my passion for software development
+                        and am excited for whats to come. Welcome to my portfolio and I hope we will be in touch
+                        soon! </p>
+                </div>
+                <!-- button tht will link to resume hosted on 3rd party website -->
+                <a href="#insert-resume-url"></a>
+                <div class="skillBar">
+                    <div class="ts">
+                        <h4>Tech Stack Competency</h4>
+                        <p>85%</p>
+                        <div class="progressBar">
+                            <div class="progressFill"></div>
+                        </div>
+                    </div>
+                    <div class="ux">
+                        <h4>Accessibility</h4>
+                        <p>85%</p>
+                        <div class="progressBar">
+                            <div class="progressFill"></div>
+                        </div>
+                    </div>
+                    <div class="vc">
+                        <h4>Version Control</h4>
+                        <p>85%</p>
+                        <div class="progressBar">
+                            <div class="progressFill"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tech Stack/Skills section -->
+        <section>
+            <div class="wrapper">
+                <h2>My Tech Stack</h2>
+                <div class="tsIcons">
+                    <img src="./Assets/html5.svg" alt="icon8 html5 icon">
+                    <img src="./Assets/css3.svg" alt="icon8 css icon">
+                    <img src="./Assets/sass.svg" alt="icon8 sass icon">
+                    <img src="./Assets/js.svg" alt="icon8 javascript icon">
+                    <img src="./Assets/react.svg" alt="icon8 react icon">
+                    <img src="./Assets/firebase.svg" alt="icon8 firebase icon">
+                    <img src="./Assets/github.svg" alt="icon8 github icon">
+                </div>
+            </div>
+        </section>
+        <!-- Project Showcase -->
+        <div class="wrapper">
+            <h2>Project Showcase</h2>
+        </div>
+        <!-- Additional projects/experiences -->
     </main>
 </body>
 
