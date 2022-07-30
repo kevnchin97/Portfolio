@@ -1,0 +1,33 @@
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1920px;
+}
+
+// typography
+h1 {
+    @include fontStyles (600, 3rem, 0, $gray );
+}
+
+h2,
+h3 {
+    @include fontStyles (400, 3rem, 0, $gray );
+}
+
+h4 {
+    @include fontStyles (100, 1.25rem, 0, $yellow );
+}
+
+p {
+    @include fontStyles (400, 1.25rem, 0, $gray );
+}
+
+
+img {
+    display: block;
+    width: 100%;
+}
+
+li {
+    @include fontStyles (400, 1.6rem, 0, $gray);
+}

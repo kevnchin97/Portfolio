@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevin Chin</title>
+    <title>Kevin Chin - Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,600;1,100&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/334409e065.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
     <header>
         <!-- navigation bar -->
         <div class="headerContainer">
-            <nav class="navBar">
+            <nav class="navBar wrapper">
+                <a href="./index.html"><img src="./Assets/LOGO.png" alt=""></a>
                 <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Tech Stack</a></li>
@@ -26,20 +28,23 @@
                 </ul>
             </nav>
         </div>
+        <div class="spacer"></div>
     </header>
     <main>
         <!-- Landing Page. -->
         <section>
-            <div class="wrapper">
-                <img src="https://placekitten.com/300/300" alt="Portrait of Myself">
+            <div class="wrapper intro">
+
+                <img src="./Assets/profilepic.JPG" alt="Portrait of Myself">
                 <h1>Kevin Chin</h1>
                 <p>I am a <span>Front-End Developer, Photographer, Car Enthusiast</span></p>
                 <!-- social media -->
                 <ul>
-                    <li><i class="fa-brands fa-linkedin-in"></i></li>
-                    <li><i class="fa-solid fa-at"></i></li>
+                    <li><a href="https://www.linkedin.com/in/kevnchin/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li><a href="mailto:kevn.chin97@outlook.com"><i class="fa-solid fa-at"></i></a></li>
                     <li><i class="fa-brands fa-twitter"></i></li>
-                    <li><i class="fa-brands fa-github-alt"></i></li>
+                    <li><a href="https://github.com/kevnchin97"><i class="fa-brands fa-github-alt"></i></a></li>
                 </ul>
                 <!-- UI navigation animation (scroll down) -->
                 <div class="mouseScroll">
@@ -111,9 +116,64 @@
         <!-- Project Showcase -->
         <div class="wrapper">
             <h2>Project Showcase</h2>
+            <div class="box1">
+                <img src="https://placekitten.com/100/100" alt="profile pic">
+                <h3>project1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus provident autem deleniti
+                    praesentium reprehenderit veniam libero soluta illum ab est, maxime sunt numquam iste laudantium
+                    impedit quisquam reiciendis ipsa velit.</p>
+            </div>
+            <div class="box2">
+                <img src="https://placekitten.com/100/100" alt="profile pic">
+                <h3>project2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus provident autem deleniti
+                    praesentium
+                    reprehenderit veniam libero soluta illum ab est, maxime sunt numquam iste laudantium impedit
+                    quisquam reiciendis
+                    ipsa velit.</p>
+            </div>
+            <div class="box3">
+                <img src="https://placekitten.com/100/100" alt="profile pic">
+                <h3>project3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus provident autem deleniti
+                    praesentium
+                    reprehenderit veniam libero soluta illum ab est, maxime sunt numquam iste laudantium impedit
+                    quisquam reiciendis
+                    ipsa velit.</p>
+            </div>
         </div>
         <!-- Additional projects/experiences -->
+        <section></section>
+
+        <!-- Contact Page -->
+        <section>
+            <div class="wrapper">
+                <h2>Get In Touch</h2>
+                <div class="textContainer">
+                    <p>Would like to hear more over coffee? You can reach me on social media or email!</p>
+                    <div class="socialMedia">
+                        <ul>
+                            <li><i class="fa-brands fa-linkedin-in"></i></li>
+                            <li><i class="fa-solid fa-at"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-github-alt"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <input type="text" id="name" placeholder="Your Name" required="">
+                    <input type="text" id="email" placeholder="Email Address" required="">
+                    <input type="text" id="Subject" placeholder="Subject" required="">
+                    <textarea name="message" id="message" cols="30" rows="10" required=""></textarea>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div>
+            <p>Coded by Kevin Chin 2020</p>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -6,6 +6,10 @@ html {
 
 body {
   margin: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("../assets/background.svg");
 }
 
 article,
@@ -253,12 +257,125 @@ template {
   overflow: hidden;
 }
 
-img {
-  width: 100%;
-}
-
 .wrapper {
   margin: 0 auto;
   width: 90%;
   max-width: 1920px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 0;
+  font-family: "Raleway", sans-serif;
+  color: #dee0e6;
+}
+
+h2,
+h3 {
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 0;
+  font-family: "Raleway", sans-serif;
+  color: #dee0e6;
+}
+
+h4 {
+  font-weight: 100;
+  font-size: 1.25rem;
+  letter-spacing: 0;
+  font-family: "Raleway", sans-serif;
+  color: #ffa822;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0;
+  font-family: "Raleway", sans-serif;
+  color: #dee0e6;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+li {
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  font-family: "Raleway", sans-serif;
+  color: #dee0e6;
+}
+
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(255, 98, 80, 0.5137254902);
+  position: fixed;
+  left: 5%;
+}
+.navBar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+}
+.navBar ul li {
+  list-style-type: none;
+}
+.navBar ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.spacer {
+  height: 260px;
+  width: 100%;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.intro img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.intro ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+.intro ul li {
+  list-style-type: none;
+}
+.intro ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.intro ul li a:hover {
+  color: #ffa822;
 }
