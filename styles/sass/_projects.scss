@@ -1,1 +1,36 @@
-.box1 {}
+.project1 {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+
+    .imageOverlay {
+        grid-area: 2/1/6/4;
+        opacity: 0.5;
+    }
+
+    .titleOverlay {
+        grid-area: 2/4/3/6;
+        text-align: right;
+
+        span {
+            color: $red;
+        }
+    }
+
+    .descOverlay {
+        grid-area: 3/3/3/6;
+        z-index: 2;
+        background-color: #031028e6;
+        border-radius: 15px;
+        padding: 0 10px;
+
+
+        .builtWith {
+            color: $gray;
+
+            i {
+                padding: 0 10px;
+            }
+        }
+    }
+}
