@@ -9,6 +9,7 @@ h1 {
     @include fontStyles (600, 3rem, 0, $gray );
 }
 
+
 h2,
 h3 {
     @include fontStyles (400, 3rem, 0, $gray );

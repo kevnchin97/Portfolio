@@ -1,0 +1,116 @@
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 150px 0;
+
+    .profilePic {
+
+
+        img {
+            border-radius: 50%;
+            width: 200px;
+        }
+    }
+
+
+
+    .textContainer {
+        display: flex;
+        width: 50vw;
+        background-color: #05132c66;
+        border-radius: 50px;
+        padding: 0 25px;
+        gap: 5%;
+        align-items: center;
+
+
+
+        .aboutP {
+            width: 50%;
+
+            p {
+                font-size: 1.15rem;
+            }
+        }
+
+        .skillBar {
+            width: 50%;
+
+            .ts {
+                h4 {
+                    margin: 0px 0px 10px 0px;
+                }
+
+                .progressBar {
+                    width: 100%;
+                    height: 10px;
+                    max-width: 100%;
+                    border: 2px solid $gray;
+                    border-radius: 20px;
+
+                    .progressFill {
+                        width: 75%;
+                        height: 100%;
+                        background-color: $teal;
+                        border-radius: 20px;
+                    }
+                }
+            }
+
+            .ux {
+                h4 {
+                    margin-bottom: 10px;
+                }
+
+                .progressBar {
+                    width: 100%;
+                    height: 10px;
+                    max-width: 100%;
+                    border: 2px solid $gray;
+                    border-radius: 20px;
+
+                    .progressFill {
+                        width: 80%;
+                        height: 100%;
+                        background-color: $gray;
+                        border-radius: 20px;
+                    }
+                }
+            }
+
+            .vc {
+
+                h4 {
+                    margin-bottom: 10px;
+                }
+
+                .progressBar {
+                    width: 100%;
+                    height: 10px;
+                    max-width: 100%;
+                    border: 2px solid $gray;
+                    border-radius: 20px;
+
+                    .progressFill {
+                        width: 90%;
+                        height: 100%;
+                        background-color: $red;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// .textContainer:before {
+//     content: " ";
+//     border-top: solid 10px transparent;
+//     border-bottom: solid 10px transparent;
+//     border-right: solid 10px $yellow;
+//     position: absolute;
+//     bottom: 50%;
+
+// }

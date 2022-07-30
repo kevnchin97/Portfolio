@@ -338,8 +338,12 @@ li {
 }
 
 .spacer {
-  height: 260px;
+  height: 200px;
   width: 100%;
+}
+
+.mouseScroll {
+  margin-bottom: 200px;
 }
 
 .intro {
@@ -378,4 +382,105 @@ li {
 }
 .intro ul li a:hover {
   color: #ffa822;
+}
+
+.aboutContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin: 150px 0;
+}
+.aboutContainer .profilePic img {
+  border-radius: 50%;
+  width: 200px;
+}
+.aboutContainer .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  background-color: rgba(5, 19, 44, 0.4);
+  border-radius: 50px;
+  padding: 0 25px;
+  gap: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.aboutContainer .textContainer .aboutP {
+  width: 50%;
+}
+.aboutContainer .textContainer .aboutP p {
+  font-size: 1.15rem;
+}
+.aboutContainer .textContainer .skillBar {
+  width: 50%;
+}
+.aboutContainer .textContainer .skillBar .ts h4 {
+  margin: 0px 0px 10px 0px;
+}
+.aboutContainer .textContainer .skillBar .ts .progressBar {
+  width: 100%;
+  height: 10px;
+  max-width: 100%;
+  border: 2px solid #dee0e6;
+  border-radius: 20px;
+}
+.aboutContainer .textContainer .skillBar .ts .progressBar .progressFill {
+  width: 75%;
+  height: 100%;
+  background-color: #1ac0c6;
+  border-radius: 20px;
+}
+.aboutContainer .textContainer .skillBar .ux h4 {
+  margin-bottom: 10px;
+}
+.aboutContainer .textContainer .skillBar .ux .progressBar {
+  width: 100%;
+  height: 10px;
+  max-width: 100%;
+  border: 2px solid #dee0e6;
+  border-radius: 20px;
+}
+.aboutContainer .textContainer .skillBar .ux .progressBar .progressFill {
+  width: 80%;
+  height: 100%;
+  background-color: #dee0e6;
+  border-radius: 20px;
+}
+.aboutContainer .textContainer .skillBar .vc h4 {
+  margin-bottom: 10px;
+}
+.aboutContainer .textContainer .skillBar .vc .progressBar {
+  width: 100%;
+  height: 10px;
+  max-width: 100%;
+  border: 2px solid #dee0e6;
+  border-radius: 20px;
+}
+.aboutContainer .textContainer .skillBar .vc .progressBar .progressFill {
+  width: 90%;
+  height: 100%;
+  background-color: #ff6150;
+  border-radius: 20px;
+}
+
+.tsIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 150px 0;
+}
+.tsIcons img {
+  width: 10%;
 }
