@@ -4,6 +4,10 @@
     justify-content: center;
     align-items: center;
 
+    .typeText {
+        color: $yellow;
+    }
+
     img {
         border-radius: 50%;
         width: 200px;

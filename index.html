@@ -37,7 +37,7 @@
 
                 <img src="./Assets/profilepic.JPG" alt="Portrait of Myself">
                 <h1>Kevin Chin</h1>
-                <p>I am a <span>Front-End Developer, Photographer, Car Enthusiast</span></p>
+                <p>I am a <span id="typewriter" class="typeText"></span></p>
                 <!-- social media -->
                 <ul>
                     <li><a href="https://www.linkedin.com/in/kevnchin/"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -122,7 +122,8 @@
             <h2>Project Showcase</h2>
             <div class="project1">
                 <div class="imageOverlay">
-                    <a href="https://coindock.netlify.app/"><img src="./Assets/coindock.png" alt="profile pic"></a>
+                    <a href="https://coindock.netlify.app/"><img src="./Assets/coindock.png"
+                            alt="Cryptocurrency market tracker website snapshot"></a>
                 </div>
                 <div class="titleOverlay">
                     <h3><span>Cryptocurrency</span> Market Tracker</h3>
@@ -145,22 +146,23 @@
             </div>
             <div class="project2">
                 <div class="imageOverlay">
-                    <a href="https://coindock.netlify.app/"><img src="./Assets/coindock.png" alt="profile pic"></a>
+                    <a href="https://sensational-lollipop-ae36d8.netlify.app/index.html"><img
+                            src="./Assets/creative.png" alt="Creative PDF conversion project snapshot"></a>
                 </div>
                 <div class="titleOverlay">
-                    <h3><span>Cryptocurrency</span> Market Tracker</h3>
+                    <h3><span>"Creative"</span> PDF Conversion</h3>
                 </div>
                 <div class="descOverlay">
-                    <p>A cryptocurrency market tracker built using the Coingecko API. View the top 100 coins with the
-                        search functionality or cycle between the top 10 coins in real time through the carousel. View
-                        current prices, highest/lowest, 24hr changes and more!</p>
+                    <p> A fully responsive and accessible website featuring a multi-page layout, the use of skip links
+                        for accessibility, drop-down menus, and grid-layouts. The goal of this project is to mimic
+                        real-life work environments where the design elements are provided to you.</p>
                     <div class="builtWith">
                         <p>Built with:</p>
                         <i class="fa-brands fa-html5 fa-3x"></i>
                         <i class="fa-brands fa-css3-alt fa-3x"></i>
                         <i class="fa-brands fa-sass fa-3x"></i>
-                        <i class="fa-brands fa-square-js fa-3x"></i>
-                        <a href="https://github.com/Cryptocurrency-Market-Tracker/Coindock-"><i
+                        <i class="fa-brands fa-accessible-icon fa-3x"></i>
+                        <a href="https://github.com/kevnchin97/Kevin-Chin-Project1"><i
                                 class="fa-brands fa-github fa-3x"></i></a>
                     </div>
                 </div>
@@ -173,22 +175,26 @@
         <section>
             <div class="wrapper">
                 <h2>Get In Touch</h2>
-                <div class="textContainer">
-                    <p>Would like to hear more over coffee? You can reach me on social media or email!</p>
-                    <div class="socialMedia">
-                        <ul>
-                            <li><i class="fa-brands fa-linkedin-in"></i></li>
-                            <li><i class="fa-solid fa-at"></i></li>
-                            <li><i class="fa-brands fa-twitter"></i></li>
-                            <li><i class="fa-brands fa-github-alt"></i></li>
-                        </ul>
+                <div class="contact">
+                    <div class="textContainer">
+                        <p>Would like to hear more over coffee? You can reach me on social media or email!</p>
+                        <div class="socialMedia">
+                            <ul>
+                                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                                <li><i class="fa-solid fa-at"></i></li>
+                                <li><i class="fa-brands fa-twitter"></i></li>
+                                <li><i class="fa-brands fa-github-alt"></i></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="contactForm">
-                    <input type="text" id="name" placeholder="Your Name" required="">
-                    <input type="text" id="email" placeholder="Email Address" required="">
-                    <input type="text" id="Subject" placeholder="Subject" required="">
-                    <textarea name="message" id="message" cols="30" rows="10" required=""></textarea>
+                    <div class="contactForm">
+                        <input type="text" id="name" placeholder="Your Name" required="">
+                        <input type="text" id="email" placeholder="Email Address" required="">
+                        <input class="stretch" type="text" id="Subject" placeholder="Subject" required="">
+                        <textarea class="stretch" name="message" id="message" cols="100" rows="10"
+                            placeholder="Enter message" required=""></textarea>
+                        <button>Send Message</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -198,6 +204,7 @@
             <p>Coded by Kevin Chin 2020</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
