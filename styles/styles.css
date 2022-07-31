@@ -494,6 +494,9 @@ li {
   grid-area: 2/1/6/4;
   opacity: 0.5;
 }
+.project1 .imageOverlay:hover {
+  opacity: 1;
+}
 .project1 .titleOverlay {
   grid-area: 2/4/3/6;
   text-align: right;
@@ -507,10 +510,60 @@ li {
   background-color: rgba(3, 16, 40, 0.9019607843);
   border-radius: 15px;
   padding: 0 10px;
+  -webkit-box-shadow: 0 0 10px 1px #05132c;
+          box-shadow: 0 0 10px 1px #05132c;
 }
 .project1 .descOverlay .builtWith {
   color: #dee0e6;
 }
 .project1 .descOverlay .builtWith i {
   padding: 0 10px;
+}
+.project1 .descOverlay .builtWith a {
+  text-decoration: none;
+  color: inherit;
+}
+.project1 .descOverlay .builtWith .fa-github:hover {
+  color: #ffa822;
+}
+
+.project2 {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+}
+.project2 .imageOverlay {
+  grid-area: 2/3/6/6;
+  opacity: 0.5;
+}
+.project2 .imageOverlay:hover {
+  opacity: 1;
+}
+.project2 .titleOverlay {
+  grid-area: 2/2/3/3;
+  text-align: right;
+}
+.project2 .titleOverlay span {
+  color: #ff6150;
+}
+.project2 .descOverlay {
+  z-index: 2;
+  background-color: rgba(3, 16, 40, 0.9019607843);
+  border-radius: 15px;
+  padding: 0 10px;
+  -webkit-box-shadow: 0 0 10px 1px #05132c;
+          box-shadow: 0 0 10px 1px #05132c;
+}
+.project2 .descOverlay .builtWith {
+  color: #dee0e6;
+}
+.project2 .descOverlay .builtWith i {
+  padding: 0 10px;
+}
+.project2 .descOverlay .builtWith a {
+  text-decoration: none;
+  color: inherit;
+}
+.project2 .descOverlay .builtWith .fa-github:hover {
+  color: #ffa822;
 }
