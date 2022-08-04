@@ -14,7 +14,7 @@ function typewriter(char, i, recycle) {
         }, 100);
         // callback 
     } else {
-        setTimeout(recycle, 500)
+        setTimeout(recycle, 700)
     }
 }
 // animation. j is referring to the words array index. 
@@ -29,3 +29,4 @@ function typeAnimation(j) {
 document.addEventListener('DOMContentLoaded', () => {
     typeAnimation(0);
 });
+

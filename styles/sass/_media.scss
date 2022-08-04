@@ -1,0 +1,67 @@
+@media (max-width:860px) {
+
+    .navBar {
+        .kcLogo {
+            min-width: 100px;
+        }
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+
+        .textContainer {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .aboutP {
+                width: 100%;
+            }
+        }
+    }
+
+    .projects {
+        margin-top: 150px;
+
+        h2 {
+            margin-bottom: 100px;
+        }
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+
+        .titleOverlay {
+            text-align: center;
+        }
+    }
+
+    .tech {
+        h2 {
+            margin-bottom: 150px;
+        }
+
+    }
+
+    .tsIcons {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .contact {
+        flex-direction: column;
+
+    }
+}

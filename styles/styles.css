@@ -525,19 +525,25 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 250px 0;
+  list-style-type: none;
+  padding: 0;
 }
 .tsIcons img {
-  width: 10%;
+  width: 300%;
 }
 
 .project1 {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(5, 1fr);
+  height: 700px;
 }
 .project1 .imageOverlay {
   grid-area: 2/1/6/4;
@@ -583,6 +589,7 @@ li {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(5, 1fr);
+  height: 700px;
 }
 .project2 .imageOverlay {
   grid-area: 2/3/6/6;
@@ -668,4 +675,77 @@ footer p {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 50px 0;
+}
+
+@media (max-width: 860px) {
+  .navBar .kcLogo {
+    min-width: 100px;
+  }
+  .aboutContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 100px;
+  }
+  .aboutContainer .textContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .aboutContainer .textContainer .aboutP {
+    width: 100%;
+  }
+  .projects {
+    margin-top: 150px;
+  }
+  .projects h2 {
+    margin-bottom: 100px;
+  }
+  .project1,
+.project2,
+.project3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 200px;
+  }
+  .project1 .titleOverlay,
+.project2 .titleOverlay,
+.project3 .titleOverlay {
+    text-align: center;
+  }
+  .tech h2 {
+    margin-bottom: 150px;
+  }
+  .tsIcons {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .tsIcons img {
+    width: 100%;
+  }
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
