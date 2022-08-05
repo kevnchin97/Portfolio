@@ -62,6 +62,12 @@
 
     .contact {
         flex-direction: column;
+    }
+
+    .responsive {
+        display: flex;
+        flex-direction: column;
+        background-color: $navy;
 
     }
 }
