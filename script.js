@@ -34,4 +34,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+const hamburger = document.querySelector(".hamburger");
+
+
+const menu = document.querySelector(".dropMenu")
+
+
+hamburger.addEventListener('click', () => {
+    menu.classList.toggle("open");
+})
+
+
+
 
