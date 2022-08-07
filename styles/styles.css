@@ -670,6 +670,9 @@ li {
 .contact .contactForm button {
   background-color: #ffa822;
 }
+.contact .contactForm button:hover {
+  cursor: pointer;
+}
 
 footer p {
   display: -webkit-box;
@@ -691,6 +694,9 @@ footer p {
   }
   .hamburger {
     opacity: 1;
+  }
+  .hamburger:hover {
+    cursor: pointer;
   }
   .open {
     height: 100vh;

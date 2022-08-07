@@ -29,6 +29,10 @@
 
         button {
             background-color: $yellow;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 
