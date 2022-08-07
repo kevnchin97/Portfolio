@@ -681,7 +681,7 @@ footer p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 50px 0;
+  margin-top: 50px;
 }
 
 @media (max-width: 860px) {
@@ -724,10 +724,7 @@ footer p {
   .spacer {
     display: none;
   }
-  .navBar .kcLogo {
-    min-width: 100px;
-  }
-  .navBar ul {
+  .navBar {
     display: none;
   }
   .aboutContainer {
