@@ -310,6 +310,14 @@ li {
   color: #dee0e6;
 }
 
+.hamburger {
+  opacity: 0;
+}
+
+.dropMenu {
+  opacity: 0;
+}
+
 .navBar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -336,11 +344,6 @@ li {
 .navBar ul li a {
   text-decoration: none;
   color: inherit;
-}
-
-.spacer {
-  height: 200px;
-  width: 100%;
 }
 
 .mouseScroll {
@@ -685,6 +688,9 @@ footer p {
   }
   .dropMenu {
     opacity: 0;
+  }
+  .hamburger {
+    opacity: 1;
   }
   .open {
     height: 100vh;
